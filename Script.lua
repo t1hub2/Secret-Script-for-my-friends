@@ -58,3 +58,9 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://pastebin.com/raw/y09GpKkH"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Какая-то бутылка",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/suggested/refs/heads/main/ShadeBottle.lua"))()
+   end,
+})
