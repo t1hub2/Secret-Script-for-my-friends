@@ -52,3 +52,9 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OoOoALemon/OL1/refs/heads/main/README.md"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Какаята хуйня",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/y09GpKkH"))()
+   end,
+})
