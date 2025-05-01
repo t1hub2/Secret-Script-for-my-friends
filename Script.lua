@@ -64,3 +64,9 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/suggested/refs/heads/main/ShadeBottle.lua"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Русская рулетка",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/suggested/refs/heads/main/your_chances_of_death_are_1_in_6.lua"))()
+   end,
+})
