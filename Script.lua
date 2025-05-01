@@ -40,3 +40,9 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAcceleration/Comet-Development/refs/heads/main/Doors/Game/PlayerHealthbars.lua"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Очень страшно",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/modes/refs/heads/main/TerrorModeOBF.lua"))()
+   end,
+})
