@@ -70,3 +70,18 @@ local Button = Tab:CreateButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/suggested/refs/heads/main/your_chances_of_death_are_1_in_6.lua"))()
    end,
 })
+local Tab = Window:CreateTab("Хуйня", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "Сообщение со звуком",
+   Callback = function()
+    local sound = Instance.new("Sound", game.Workspace)
+sound.SoundId = "rbxassetid://8486683243"
+sound:Play()
+    Rayfield:Notify({
+   Title = "!",
+   Content = "хз",
+   Duration = 6.5,
+   Image = "lightbulb",
+})
+   end,
+})
