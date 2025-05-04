@@ -85,3 +85,7 @@ sound:Play()
 })
    end,
 })
+
+local sound = Instance.new("Sound", game.Workspace)
+sound.SoundId = "rbxassetid://81649240314807"
+sound:Play()
